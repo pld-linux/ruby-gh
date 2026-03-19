@@ -5,12 +5,12 @@
 %define	pkgname	gh
 Summary:	Layered GitHub Client
 Name:		ruby-%{pkgname}
-Version:	0.14.0
+Version:	0.15.1
 Release:	1
 License:	MIT
 Group:		Development/Languages
 Source0:	http://rubygems.org/downloads/%{pkgname}-%{version}.gem
-# Source0-md5:	b08fa6c05fd209725951215ca4e2b1a2
+# Source0-md5:	3b73d3cc3254e5f42100f7c0406136f7
 URL:		http://gh.rkh.im/
 BuildRequires:	rpm-rubyprov
 BuildRequires:	rpmbuild(macros) >= 1.656
